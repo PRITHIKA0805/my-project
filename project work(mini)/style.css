@@ -1,0 +1,140 @@
+/* styles.css */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("images/cafe1.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(0, 4, 11);
+}
+
+.header, .footer {
+    background: rgba(212, 163, 115, 0.9);  /* Semi-transparent background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.header h1, .footer p {
+    margin: 0;
+}
+
+.navbar {
+    background: rgba(140, 123, 117, 0.9); /* Semi-transparent background */
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 40px 0;
+    text-align: center;
+    background: rgba(255, 225, 225, 0.4); /* Semi-transparent white background */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.content h2 {
+    font-style: initial;
+    font-size: 2em;
+    color: rgb(41, 232, 7);
+}
+
+.content p, .content ul {
+    font-size: 1.2em;
+    color: navy;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content ul li {
+    padding: 10px 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+}
+    
+.content h1{
+    font-size: 5vw;
+    color: yellow;
+}
+.content h3{
+    color: rgb(111, 3, 3);
+}
+
+/* Styles for Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form label {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: darkgreen;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"], form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #97c706;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form input[type="submit"]:hover, form button:hover {
+    background-color: #8d8741;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+}
